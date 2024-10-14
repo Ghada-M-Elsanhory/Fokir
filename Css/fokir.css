@@ -267,3 +267,81 @@ body {
         }
     }
   /* about */
+  /* services */
+
+.title h2 {
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #333333;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .title h2::before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #ff305b;
+    border-bottom: 1px solid #ff305b;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 10px;
+    width: 70px;
+  }
+  
+  .title h2::after {
+    content: "";
+    position: absolute;
+    background-color: #ff305b;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    width: 200px;
+  }
+  .services-header {
+    padding: 80px 0px;
+    background-color: #f1f1f1;
+  }
+  .services-container {
+    width: 80%;
+    margin: auto;
+  }
+  .services-item {
+    text-align: center;
+    float: left;
+    width: 21%;
+    padding: 20px 15px;
+    transition: all 0.5s;
+  }
+  .services-item h3 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 15px;
+  }
+  .services-item p {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+  }
+  .services-item i {
+    color: #ff305b;
+    display: block;
+    font-size: 36px;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+  }
+  .services-item:hover {
+    background-color: #fff;
+  }
+  .services-item:hover i {
+    font-size: 35px;
+  }
+  /* services */
