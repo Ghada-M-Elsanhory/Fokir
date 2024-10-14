@@ -345,3 +345,74 @@ body {
     font-size: 35px;
   }
   /* services */
+  /* portfolio */
+.portfolio-header {
+    padding: 50px 0px;
+  }
+  
+  .portfolio-title h2 {
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #333333;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .portfolio-links {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .portfolio-header a {
+    border: none;
+    background-color: transparent;
+    padding: 5px 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .portfolio-header .active {
+    color: #ff305b;
+  }
+  .portfolio-container {
+    width: 90%;
+    margin: auto;
+  }
+  .portfolio-item {
+    text-align: center;
+    float: left;
+    width: 30.3333%;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+  .portfolio-item .item {
+    position: relative;
+  }
+  .portfolio-item .item img {
+    width: 100%;
+  }
+  .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s;
+    top: 0%;
+    opacity: 0;
+  }
+  .portfolio-hover i {
+    font-size: 20px;
+    color: #ff305b;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+  }
+  .portfolio-item:hover .portfolio-hover {
+    opacity: 1;
+  }
+  /* portfolio */
