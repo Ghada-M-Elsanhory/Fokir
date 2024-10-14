@@ -452,3 +452,122 @@ body {
     font-family: "Source Sans 3", sans-serif;
   }
   /* counter */
+  /* testimonial */
+.feedback-header {
+    padding: 50px 0px;
+  }
+  .feedback-section {
+    width: 750px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .feedback-title h2 {
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #333333;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .feedback-title h2::before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #ff305b;
+    border-bottom: 1px solid #ff305b;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 10px;
+    width: 70px;
+  }
+  
+  .feedback-title h2::after {
+    content: "";
+    position: absolute;
+    background-color: #ff305b;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    width: 200px;
+  }
+  
+  .feedback-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    z-index: 20;
+  }
+  .feedback-content {
+    padding-left: 20px;
+    width: 80%;
+    text-align: left;
+    float: right;
+  }
+  .feedback-content h3 {
+    color: #333333;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .feedback-content a {
+    display: inline-block;
+    color: #777777;
+    font-family: "Source Sans 3", sans-serif;
+    margin-bottom: 10px;
+  }
+  .feedback-content p {
+    color: #555555;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    line-height: 25px;
+  }
+  .stars {
+    font-size: 14px;
+    color: #f1c30d;
+  }
+  .feedback-section::after {
+    content: "";
+    position: absolute;
+    background-color: #ff305b;
+    height: 500px;
+    width: 200px;
+    top: -70%;
+    left: -15%;
+    transform: rotate(40deg);
+  }
+  .button {
+    text-align: center;
+    margin: 5px 0px;
+  }
+  .button-1 {
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ff305b;
+  }
+  .button-2 {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #ff305b;
+  }
+  /* testimonial */
