@@ -775,3 +775,40 @@ body {
     background-color: #ec2403;
   }
   /* contact */
+  /* footer */
+.footer {
+    background-color: #333333;
+    padding: 50px 0px;
+  }
+  .footer-container {
+    width: 80%;
+    margin: auto;
+  }
+  .footer-social {
+    text-align: center;
+    position: static;
+    margin: 10px 0px;
+  }
+  .footer-social a {
+    color: white;
+    transition: all 0.3s;
+    padding: 0px 10px;
+  }
+  .footer-social a:hover {
+    color: #ff305b;
+  }
+  
+  .footer p {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    margin: 10px 0px;
+  }
+  
+  .footer p a {
+    color: #ff305b;
+    transition: all 0.3s;
+  }
+  /* footer */
